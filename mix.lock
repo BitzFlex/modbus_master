@@ -1,0 +1,7 @@
+%{
+  "circuits_uart": {:hex, :circuits_uart, "1.5.2", "2b9bed7bfd4051ad199e247e6564e04ab0b363b04277c9b1140df533c39ffa59", [:mix], [{:elixir_make, "~> 0.6", [hex: :elixir_make, repo: "hexpm", optional: false]}], "hexpm", "0ae3184cd25efeee8d36cde241581d0db15f67b9bc3a1596cba8eec6c8f6ab99"},
+  "circular_buffer": {:hex, :circular_buffer, "0.4.1", "477f370fd8cfe1787b0a1bade6208bbd274b34f1610e41f1180ba756a7679839", [:mix], [], "hexpm", "633ef2e059dde0d7b89bbab13b1da9d04c6685e80e68fbdf41282d4fae746b72"},
+  "elixir_make": {:hex, :elixir_make, "0.8.3", "d38d7ee1578d722d89b4d452a3e36bcfdc644c618f0d063b874661876e708683", [:mix], [{:castore, "~> 0.1 or ~> 1.0", [hex: :castore, repo: "hexpm", optional: true]}, {:certifi, "~> 2.0", [hex: :certifi, repo: "hexpm", optional: true]}], "hexpm", "5c99a18571a756d4af7a4d89ca75c28ac899e6103af6f223982f09ce44942cc9"},
+  "modbux": {:hex, :modbux, "0.3.13", "a023e36c9678a83f0367ec585924a5df0456654a0bd91a6fee09e9b926901316", [:mix], [{:circuits_uart, "~> 1.3", [hex: :circuits_uart, repo: "hexpm", optional: false]}, {:ring_logger, "~> 0.4", [hex: :ring_logger, repo: "hexpm", optional: false]}], "hexpm", "7fa474bcc49d83a8a60b7241ad804607f30655dc0660d6bbc4a20220150c46e1"},
+  "ring_logger": {:hex, :ring_logger, "0.11.3", "08a423e5d088d5bf41bf1bdf23b804f96279624ef09ca6b5b5012c32014b38a8", [:mix], [{:circular_buffer, "~> 0.4.0", [hex: :circular_buffer, repo: "hexpm", optional: false]}], "hexpm", "b870a23b8f8329aeadcbee3429e5e43942e4134d810a71e9a5a2f0567b9ce78d"},
+}
